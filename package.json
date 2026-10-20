@@ -27,7 +27,8 @@
   "scripts": {
     "start": "node serve.js",
     "lint": "npx eslint . && npx rumdl check .",
-    "format": "npx eslint . --fix && npx rumdl fmt ."
+    "format": "npx eslint . --fix && npx rumdl fmt .",
+    "release": "dotenv run release-it -- --verbose"
   },
   "devDependencies": {
     "dotenv": "^18.0.8",
