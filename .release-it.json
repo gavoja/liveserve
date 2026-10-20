@@ -11,6 +11,7 @@
     "tokenRef": "LIVESERVE_GITHUB_TOKEN"
   },
   "npm": {
-    "publish": true
+    "publish": true,
+    "publishArgs": ["--access=public"]
   }
 }

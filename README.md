@@ -5,7 +5,7 @@ Zero-dependency minimal web server with live reload.
 Usage:
 
 ```js
-import { serve } from 'liveserve'
+import { serve } from '@gavoja/liveserve'
 
 serve({
   root: '/foo/bar',

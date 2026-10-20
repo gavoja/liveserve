@@ -1,5 +1,5 @@
 {
-  "name": "liveserve",
+  "name": "@gavoja/liveserve",
   "version": "0.1.0",
   "description": "Zero dependency minimal web server with live reload",
   "keywords": [
