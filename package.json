@@ -1,0 +1,45 @@
+{
+  "name": "liveserve",
+  "version": "0.1.0",
+  "description": "Zero dependency minimal web server with live reload",
+  "keywords": [
+    "http",
+    "server",
+    "minimal",
+    "lightweight",
+    "live-reload"
+  ],
+  "homepage": "https://github.com/gavoja/liveserve#readme",
+  "bugs": {
+    "url": "https://github.com/gavoja/liveserve/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavoja/liveserve.git"
+  },
+  "license": "MIT",
+  "author": "Michal Kochel",
+  "type": "module",
+  "main": "serve.js",
+  "exports": {
+    ".": "./serve.js"
+  },
+  "scripts": {
+    "start": "node serve.js",
+    "lint": "npx eslint . && npx rumdl check .",
+    "format": "npx eslint . --fix && npx rumdl fmt ."
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.8",
+    "dotenv-cli": "^11.0.0",
+    "eslint": "^10.13.0",
+    "lazy-eslint": "^0.3.0",
+    "release-it": "^21.1.1",
+    "rumdl": "^0.3.0"
+  },
+  "overrides": {
+    "get-uri": {
+      "basic-ftp": "^6.2.3"
+    }
+  }
+}
